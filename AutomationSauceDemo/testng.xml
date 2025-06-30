@@ -1,0 +1,15 @@
+<suite name="Suite">
+<listeners>
+<listener class-name="utils.ExtentTestNGITestListener"/>
+</listeners>
+<test thread-count="5" name="Functionality Test">
+<classes>
+<class name="pagesTests.LoginPageTest"/>
+<class name="pagesTests.ProductCountTest"/>
+<class name="pagesTests.AddToCartPageTest"/>
+<class name="pagesTests.CheckoutPageTest"/>
+<class name="pagesTests.LogoutTest"/>
+</classes>
+</test>
+</suite>
+<!--  Suite  -->
